@@ -18,5 +18,9 @@ lunch omni_hermes-eng
 make -j4 clobber && make -j4 recoveryimage
 ```
 
+# Current Bugs
+1. maybe some sepolicy conflict but seems not effect to normal use, IDK
+* 'Reboot Bootloader' is now fixed
+
 # License
 Apache License v2.0 (for all files)
